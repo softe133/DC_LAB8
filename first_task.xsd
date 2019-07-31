@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+	<xs:element name="store" type="mtype"/>
+		<xs:complexType name="mtype">
+			<xs:sequence>
+				<xs:element name="Items" type="xs:string"/>
+				<xs:element name="price" type="xs:string"/>
+				<xs:element name="Opening_Time" type="xs:string"/>
+				<xs:element name="Closing_Time" type="xs:string"/>
+			</xs:sequence>
+		</xs:complexType>
+		</xs:schema>
+
+	
